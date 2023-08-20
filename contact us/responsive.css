@@ -1,0 +1,66 @@
+@media (max-width: 500px) {
+    main{
+        height: 157vw;
+    }
+    #first {
+        font-size: 4vw;
+    }
+    #first h1{
+        margin-top: 5vw;
+    }
+    #first p{
+        width: 73vw;
+        margin-bottom: 5vw;
+    }
+
+    #second {
+        height: 120vw;
+        display: inline-block;
+    }
+
+    .inp {
+        width: 99vw;
+    }
+
+    #left {
+        margin: 8vw 4vw 8vw;
+        width: 90vw;
+        min-height: 20vw;
+        display: flex;
+    }
+    #left div{
+        width: 69vw;
+        /* font-size: 3vw; */
+    }
+    #left div div{
+        align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    display: flex;
+    }
+
+    #right {
+        margin: 8vw 4vw 8vw;
+        width: 90vw;
+        min-height: 20vw;
+        display: flex;
+    }
+    #left h4{
+        font-size: 8vw;
+    }
+    #left p{
+        font-size: 5vw;
+        text-align: center;
+    }
+    #their{
+        margin-top: 4vw;
+    }
+    #m{display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 66vw;
+    }
+    form{
+        width: 41vw;
+    }
+}
